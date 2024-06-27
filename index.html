@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=900 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BarbaraFriends.loader.js";
+      var loaderUrl = buildUrl + "/Build6WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/BarbaraFriends.data",
-        frameworkUrl: buildUrl + "/BarbaraFriends.framework.js",
-        codeUrl: buildUrl + "/BarbaraFriends.wasm",
+        dataUrl: buildUrl + "/Build6WebGL.data",
+        frameworkUrl: buildUrl + "/Build6WebGL.framework.js",
+        codeUrl: buildUrl + "/Build6WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "BarbaraGame",
@@ -94,7 +94,7 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "900px";
+        canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
 
